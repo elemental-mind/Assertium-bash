@@ -2,7 +2,7 @@
 
 source "./Assertium.sh"
 
-testAssertions()
+testSelf()
 {
     assert "assert 1 == 1" returns 0
     assert "assert 1 != 1" returns 1 
